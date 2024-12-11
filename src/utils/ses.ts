@@ -11,8 +11,8 @@ interface EmailData {
 
 export const sendEmailWithSES = async (data: EmailData) => {
   const AWS_SES_ENDPOINT = 'https://email.us-east-1.amazonaws.com'; // Replace with your AWS region endpoint
-  const AWS_ACCESS_KEY = '<>';
-  const AWS_SECRET_KEY = '<>';
+  const AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
+  const AWS_SECRET_KEY = process.env.AWS_SECRET_KEY;
 
   const emailParams = {
     Source: 'hello@vi.com', // Replace with your SES verified email
