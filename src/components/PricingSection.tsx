@@ -27,7 +27,12 @@ const PricingSection = () => (
         
               <li className="flex items-start">
                 <Check className="mr-4 h-6 w-6 text-green-500 flex-shrink-0 mt-1" />
-                <span className="text-xl">Per appointment charge: 7 SGD</span>
+                <span className="text-xl">Per appointment charge: 5 SGD</span>
+              </li>
+
+              <li className="flex items-start">
+                <Check className="mr-4 h-6 w-6 text-green-500 flex-shrink-0 mt-1" />
+                <span className="text-xl">No Hidden charges</span>
               </li>
               <li className="flex items-start">
                 <Check className="mr-4 h-6 w-6 text-green-500 flex-shrink-0 mt-1" />

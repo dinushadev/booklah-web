@@ -15,7 +15,7 @@ const Header = () => {
     { href: "#operator-experience", label: "Operator Experience" },
     { href: "#features", label: "Features" },
     { href: "#pricing", label: "Pricing" },
-    { href: "#video", label: "Video" },
+ 
     { href: "#contact", label: "Contact" },
   ];
 
