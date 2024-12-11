@@ -11,13 +11,13 @@ interface EmailData {
 
 export const sendEmailWithSES = async (data: EmailData) => {
   const AWS_SES_ENDPOINT = 'https://email.us-east-1.amazonaws.com'; // Replace with your AWS region endpoint
-  const AWS_ACCESS_KEY = 'AKIAXWHDMFQAK7P5XCVV';
-  const AWS_SECRET_KEY = 'txr7mcqnsYu/2J69iM1LOAxbigYmvd0DTfHh1eGV';
+  const AWS_ACCESS_KEY = '<>';
+  const AWS_SECRET_KEY = '<>';
 
   const emailParams = {
     Source: 'hello@vi.com', // Replace with your SES verified email
     Destination: {
-      ToAddresses: ['dnsw83@gmail.com']
+      ToAddresses: ['xxx@gmail.com']
     },
     Message: {
       Subject: {
